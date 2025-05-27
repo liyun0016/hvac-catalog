@@ -18,11 +18,12 @@ York
 Amana
 American Standard
 Bryant
+
 ✅ Data Structure
 
 Each brand's data was normalized into a consistent tabular format with the following columns:
 
-<pre> ```csv product_line_name, product_line_image, model_name, model_image, efficiency ``` </pre>
+<pre>  product_line_name, product_line_image, model_name, model_image, efficiency </pre>
 
 ✅ Processing
 
