@@ -8,16 +8,25 @@ All HVAC data in this project was collected by scraping official manufacturer we
 
 Data was gathered from the following brand websites:
 
-Carrier
-Trane
-Lennox
-Rheem
-Goodman
-Daikin
-York
-Amana
-American Standard
-Bryant
+Carrier: "https://www.carrier.com/residential/en/us/products/heating-cooling/"
+
+Trane: "https://www.trane.com/residential/en/products/"
+
+Lennox: "https://www.lennox.com/residential/products/heating-cooling"
+
+Rheem: "https://www.rheem.com/products/residential/heating-and-cooling/"
+
+Goodman: "https://www.goodmanmfg.com/products/residential-products#HeatingandCooling"
+
+Daikin:"https://daikincomfort.com/products/heating-cooling/whole-home-systems"
+
+York: "https://www.york.com"
+
+Amana: "https://www.amana-hac.com/products"
+
+American Standard: "https://www.americanstandardair.com/products/#heating-cooling"
+
+Bryant: "https://www.bryant.com/en/us/products/"
 
 ✅ Data Structure
 
