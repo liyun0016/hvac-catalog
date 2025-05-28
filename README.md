@@ -32,7 +32,9 @@ Bryant: "https://www.bryant.com/en/us/products/"
 
 Each brand's data was normalized into a consistent tabular format with the following columns:
 
-<pre>  product_line_name, product_line_image, model_name, model_image, efficiency </pre>
+```bash 
+product_line_name, product_line_image, model_name, model_image, efficiency
+```
 
 ✅ Processing
 
@@ -57,13 +59,19 @@ Make sure you have the following installed:
 
 1. Clone the Repository
 
-<pre> ```bash git clone https://github.com/your-username/hvac-catalog.git 
-cd hvac-catalog ``` </pre>
+```bash 
+git clone https://github.com/your-username/hvac-catalog.git 
+cd hvac-catalog
+```
 
 2.  Install Frontend Dependencies
 
-<pre> ```bash npm install ``` </pre>
+```bash 
+npm install
+```
 
 4. Run the App
 
-<pre> ```bash npm start ``` </pre>
+```bash 
+npm start 
+```
