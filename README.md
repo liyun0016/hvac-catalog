@@ -44,6 +44,11 @@ Final output was converted into a unified JSON file (hvacData.js) structured by:
 brand → productLines → models
 This makes the data easy to use and render in the frontend application.
 
+### Storage & Scripts
+
+All scraped data is stored in the [`web_scraping`](./web_scraping) folder.  
+The scraping process for all brands is implemented in the [`web_scraping.ipynb`](./web_scraping/web_scraping.ipynb) notebook.
+
 
 ## Setup Instructions
 Follow the steps below to set up and run the HVAC catalog application locally.
