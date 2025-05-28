@@ -99,7 +99,7 @@ Once the application is running, users can explore HVAC systems through a clean,
 
 - Case-insensitive: Typing `york`, `YORK`, or `YoRk` works the same.
 
-- Flexible input: You don't need to type from the beginning — searching "ork" will still find "York".
+- Flexible input: You don't need to type from the beginning — searching `ork` will still find `York`.
 
 - Filtering updates results in real time as you type.
 
@@ -116,7 +116,10 @@ Once the application is running, users can explore HVAC systems through a clean,
 Screenshots are included below to illustrate:
 
 - The brand list view
+![Brand List](screenshots/brand.png)
 
 - Product line listing
+![Product Lines](screenshots/product_line.png)
 
 - Model search results with images and efficiency
+![Models](screenshots/product.png)
