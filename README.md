@@ -75,3 +75,35 @@ npm install
 ```bash 
 npm start 
 ```
+
+## 🖱️ Usage and Features
+
+Once the application is running, users can explore HVAC systems through a clean, multi-level interface:
+
+🔍 Navigation Flow
+
+Home Page: Displays a list of HVAC brands, each with a logo./
+Brand Page: Shows available product lines (e.g. Air Conditioners, Heat Pumps)./
+Product Line Page: Lists all models under the selected product line./
+Model Page: Displays product image, model name, and efficiency (e.g., SEER2)./
+Model Detail Page (in progress): Placeholder for future specs, manuals, and advanced details./
+
+🔎 Search Functionality
+
+A search bar is available on each page (brands, lines, models)./
+Case-insensitive: Typing york, YORK, or YoRk works the same./
+Flexible input: You don't need to type from the beginning — searching "ork" will still find "York"./
+Filtering updates results in real time as you type./
+
+↩️ Back Navigation
+
+A clickable breadcrumb path is shown under the search bar./
+Users can quickly go back to the previous level (brand or product line) by clicking the appropriate segment./
+
+🖼️ UI Preview
+
+Screenshots are included below to illustrate:
+
+The brand list view/
+Product line listing/
+Model search results with images and efficiency/
