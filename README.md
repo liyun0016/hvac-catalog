@@ -41,3 +41,29 @@ Missing fields (NaN) were cleaned and replaced with blank strings.
 Final output was converted into a unified JSON file (hvacData.js) structured by:
 brand → productLines → models
 This makes the data easy to use and render in the frontend application.
+
+
+## ⚙️ Setup Instructions
+Follow the steps below to set up and run the HVAC catalog application locally.
+
+✅ Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v14+ recommended)
+- Python 3.7+
+- pip for installing Python packages
+- npm (comes with Node.js)
+
+1. Clone the Repository
+
+<pre> ```bash git clone https://github.com/your-username/hvac-catalog.git 
+cd hvac-catalog ``` </pre>
+
+2.  Install Frontend Dependencies
+
+<pre> ```bash npm install ``` </pre>
+
+4. Run the App
+
+<pre> ```bash npm start ``` </pre>
