@@ -45,10 +45,8 @@ brand → productLines → models
 This makes the data easy to use and render in the frontend application.
 
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 Follow the steps below to set up and run the HVAC catalog application locally.
-
-### Prerequisites
 
 Make sure you have the following installed:
 
@@ -70,7 +68,7 @@ cd hvac-catalog
 npm install
 ```
 
-4. Run the App
+3. Run the App
 
 ```bash 
 npm start 
