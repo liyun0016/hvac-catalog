@@ -1,10 +1,10 @@
 # HVAC Product Catalog Interface
 
-## 📦 Data Sources & Structure
+## Data Sources & Structure
 
 All HVAC data in this project was collected by scraping official manufacturer websites to ensure accuracy and freshness.
 
-✅ Source Websites
+### Source Websites
 
 Data was gathered from the following brand websites:
 
@@ -28,7 +28,7 @@ American Standard: "https://www.americanstandardair.com/products/#heating-coolin
 
 Bryant: "https://www.bryant.com/en/us/products/"
 
-✅ Data Structure
+### Data Structure
 
 Each brand's data was normalized into a consistent tabular format with the following columns:
 
@@ -36,7 +36,7 @@ Each brand's data was normalized into a consistent tabular format with the follo
 product_line_name, product_line_image, model_name, model_image, efficiency
 ```
 
-✅ Processing
+### Processing
 
 CSVs were grouped by product_line_name and models using pandas.
 Missing fields (NaN) were cleaned and replaced with blank strings.
@@ -48,7 +48,7 @@ This makes the data easy to use and render in the frontend application.
 ## ⚙️ Setup Instructions
 Follow the steps below to set up and run the HVAC catalog application locally.
 
-✅ Prerequisites
+### Prerequisites
 
 Make sure you have the following installed:
 
@@ -76,11 +76,11 @@ npm install
 npm start 
 ```
 
-## 🖱️ Usage and Features
+## Usage and Features
 
 Once the application is running, users can explore HVAC systems through a clean, multi-level interface:
 
-🔍 Navigation Flow
+### Navigation Flow
 
 - Home Page: Displays a list of HVAC brands, each with a logo.
 
@@ -93,7 +93,7 @@ Once the application is running, users can explore HVAC systems through a clean,
 - Model Detail Page (in progress): Placeholder for future specs, manuals, and advanced details.
 
 
-🔎 Search Functionality
+### Search Functionality
 
 - A search bar is available on each page (brands, lines, models).
 
@@ -104,14 +104,14 @@ Once the application is running, users can explore HVAC systems through a clean,
 - Filtering updates results in real time as you type.
 
 
-↩️ Back Navigation
+### Back Navigation
 
 - A clickable breadcrumb path is shown under the search bar.
 
 - Users can quickly go back to the previous level (brand or product line) by clicking the appropriate segment.
 
 
-🖼️ UI Preview
+### UI Preview
 
 Screenshots are included below to illustrate:
 
@@ -123,3 +123,9 @@ Screenshots are included below to illustrate:
 
 - Model search results with images and efficiency
 ![Models](public/screenshots/product.png)
+
+## Challenges & Solutions
+
+One of the main challenges in building this application was gathering consistent HVAC product data across different brands. Each manufacturer structures their website differently, making it difficult to apply a single scraping template. In some cases, model information and efficiency specifications like SEER2 or AFUE were readily available, but in others, they were buried within product detail pages or embedded in long text descriptions. To solve this, I created a flexible scraping pipeline that could be adapted per brand while maintaining a consistent output format. This approach ensures future scalability and allows for efficient updates and modifications.
+
+
