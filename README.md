@@ -116,10 +116,10 @@ Once the application is running, users can explore HVAC systems through a clean,
 Screenshots are included below to illustrate:
 
 - The brand list view
-![Brand List](screenshots/brand.png)
+![Brand List](public/screenshots/brand.png)
 
 - Product line listing
-![Product Lines](screenshots/product_line.png)
+![Product Lines](public/screenshots/product_line.png)
 
 - Model search results with images and efficiency
-![Models](screenshots/product.png)
+![Models](public/screenshots/product.png)
